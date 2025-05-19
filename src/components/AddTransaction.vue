@@ -34,7 +34,9 @@ if(!text.value || !amount.value) {
     return;
 }
 
-const parsedAmount = parseFloat(amount.value);
+// replace comma with .dot
+const normalizedAmount = amount.value.replace(',', '.'); 
+const parsedAmount = parseFloat(normalizedAmount);
 
 // check if parsedAmount is a valid number
 if (isNaN(parsedAmount)) {
