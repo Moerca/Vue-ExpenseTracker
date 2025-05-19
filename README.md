@@ -1,29 +1,23 @@
-# .
+# Expense Tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple expense tracker to manage your income and expenses. Add and delete transactions, with data saved to **local storage** for persistence between sessions.
 
-## Recommended IDE Setup
+![Screenshot](https://github.com/user-attachments/assets/0e066e44-f81e-4538-874a-5f49b70d5aa0)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Add transactions with description and amount
+- Differentiate between income and expenses
+- Display current balance, income, and expenses
+- Delete transactions
+- Data saved in **Local Storage**
+- Responsive design for all screen sizes
 
-## Project Setup
+## Tech Stack
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- **Vue 3**
+- **JavaScript (Composition API)**
+- **CSS3 (responsive styling)**
+- **Local Storage**
+- **[Vue Toastification](https://github.com/Maronato/vue-toastification)** for user feedback
